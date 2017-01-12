@@ -1,0 +1,644 @@
+\documentclass[9pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[usenames]{color}
+
+\leftmargin=0.25in
+\oddsidemargin=0.25in
+\textwidth=6.0in
+\topmargin=-0.25in
+\textheight=9.25in
+
+\raggedright
+
+\pagenumbering{arabic}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\scshape{#1}\\
+  	\lineover
+	\end{changemargin}
+}
+
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip 
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\ 
+	#4\\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+\contact{Page Piccinini}{www.pagepiccinini.com}{page.piccinini@ens.fr}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Objective
+%\header{Objective}
+
+%\begin{body}
+%	\vspace{14pt}
+%	To get a job
+%\end{body}
+
+%\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Research Interests
+\header{Research Interests}
+
+\begin{body}
+	\vspace{14pt}
+	Bilingualism, psycholinguistics, phonetics, speech perception, speech production, code-switching, accented speech
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+\header{Education}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Ph.D. Linguistics} \hfill \emph{2016} \\
+	\emph{University of California, San Diego}, La Jolla, CA \\
+	\underline{Thesis:} Cross-language Activation and the Phonetics of Code-switching\\
+  \medskip
+
+	\textbf{M.A. Linguistics} \hfill \emph{2009} \\
+	\emph{Northwestern University}, Evanston, IL\\
+	\underline{Thesis:} Semantic Contextual Cues and Listener Adaptation to Foreign-Accented English\\
+  \medskip
+
+	\textbf{B.A. Linguistics} \hfill \emph{2009} \\
+	\textbf{B.A. International Studies} \\
+	\emph{Northwestern University}, Evanston, IL\\
+	\underline{Academic Honors:} Cum laude, Dean's List Quarters Fall 2005 - Fall 2007\\
+
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Research Experience
+\header{Research Experience}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Postdoctoral Researcher}, \emph{NeuroPsychologie Interventionnelle (NPI)} \hfill \emph{2016 - present}\\
+	D\'epartement d'Etudes Cognitives (DEC), Ecole Normale Sup\'erieure, Paris, France
+	\medskip
+	
+	\textbf{Graduate Student Lab Member}, \emph{Phonetics Lab} \hfill \emph{2010 - 2016}\\
+	Department of Linguistics, University of California, San Diego, La Jolla, CA\\
+ 	\medskip
+	
+	\textbf{Engineer}, \emph{NeuroPsychologie Interventionnelle (NPI)} \hfill \emph{2015 - 2016}\\
+	D\'epartement d'Etudes Cognitives (DEC), Ecole Normale Sup\'erieure, Paris, France
+	\medskip
+	
+	\textbf{Visiting Researcher}, \emph{Laboratoire de Sciences Cognitives et Psycholinguistique (LSCP)} \hfill \emph{2014 - 2015}\\
+	D\'epartement d'Etudes Cognitives (DEC), Ecole Normale Sup\'erieure, Paris, France
+	\medskip
+	
+	\textbf{Visiting Researcher}, \emph{The GrEP Group} \hfill \emph{2011}\\
+	Department of Translation and Language Sciences, Universitat Pompeu Fabra, Barcelona, Spain
+	\medskip
+	
+	\textbf{Research Assistant}, \emph{Speech Communication Research Group} \hfill \emph{2006 - 2009}\\
+	Department of Linguistics, Northwestern University, Evanston, IL
+\end{body}
+
+\smallskip
+
+% \newpage{} % uncomment this line if you want to force a new page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Publications
+\header{Publications}
+
+\begin{body}
+	\vspace{14pt}
+	
+	Armstrong, M., \textbf{Piccinini, P.}, Ritchart, A. (2016). ``Non-question rises in narratives produced by mothers and daughters." \emph{Proceedings of the 8th Speech Prosody Conference}.\\
+	\medskip
+	
+	Chung, Y., \textbf{Piccinini, P.}, Rose, S. (2016). ``The interaction of polar question and declarative intonation with lexical tone in Moro." \emph{Proceedings of the 8th Speech Prosody Conference}.\\
+	\medskip
+
+	\textbf{Piccinini, P.}, Arvaniti, A. (2015). ``Voice onset time in Spanish-English spontaneous code-switching." \emph{Journal of Phonetics}, 52, 121-137.\\
+	\medskip
+
+	\textbf{Piccinini, P.}, Arvaniti, A. (2015). ``Voice onset time in Spanish-English spontaneous code-switching." \emph{Proceedings of the 18th International Congress of Phonetic Sciences}.\\
+	\medskip
+	
+	Armstrong, M., \textbf{Piccinini, P.}, Ritchart, A. (2015). ``The phonetics and distribution of non-question rises in two varieties of American English." \emph{Proceedings of the 18th International Congress of Phonetic Sciences}.\\
+	\medskip
+	
+	\textbf{Piccinini, P.}, Garellek, M. (2014). ``Prosodic cues to monolingual versus code-switching sentences in English and Spanish." \emph{Proceedings of the 7th Speech Prosody Conference}.\\
+	\medskip
+	
+	\textbf{Piccinini, P.}, Arvaniti, A. (2014). ``Accessing cross language categories in learning a third language.'' \emph{Proceedings of the 38th Boston University Conference on Language Development}.\\
+	 \medskip
+
+	\textbf{Piccinini, P.}, Kramer, E. (2013). ``Unsupervised machine learning for the accurate classification of the discourse marker \emph{like} in code-switching utterances.'' \emph{Proceedings of Meetings on Acoustics (POMA)}, 19(060007).\\
+	 \medskip
+	
+	Grijalva, C., \textbf{Piccinini, P.}, Arvaniti, A. (2013). ``The vowel spaces of Southern Californian English and Mexican Spanish as produced by monolinguals and bilinguals.'' \emph{Proceedings of Meetings on Acoustics (POMA)}, 19(060088).\\
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Invited Presentations
+\header{Invited Presentations}
+
+\begin{body}
+	\vspace{14pt}
+
+	\textbf{Piccinini, P.} (2013). ``Accessing cross language categories in learning a third language.''  Department of Languages, Literatures \& Cultures, Spanish \& Portuguese program, University of Massachusetts-Amherst. Amherst, MA. (October)\\
+	\medskip
+	
+	\textbf{Piccinini, P.} (2013). ``Accessing cross language categories in learning a third language.''  Center for Research in Language, University of California, San Diego. La Jolla, CA. (May)\\
+	\medskip
+	
+	\textbf{Piccinini, P.} (2011). ``The gradient  production of Spanish-English code-switching.''  Center for Research in Language, University of California, San Diego. La Jolla, CA. (October)\\
+	\medskip
+	
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Conferences Presentations
+
+\header{Conference Presentations}
+
+\begin{body}
+	\vspace{14pt}
+	
+	Armstrong, M., \textbf{Piccinini, P.}, Ritchart, A. (2016). ``Non-question rises in narratives produced by mothers and daughters." Poster presentation at Speech Prosody 8. Boston, MA. (May)\\
+	\medskip
+	
+	Chung, Y., \textbf{Piccinini, P.}, Rose, S. (2016). ``The interaction of polar question and declarative intonation with lexical tone in Moro." Poster presentation at Speech Prosody 8. Boston, MA. (May)\\
+	\medskip
+	
+	Tsuji, S.,  Lewis, M., Bergmann, C., Braginsky, M., \textbf{Piccinini, P.}, Frank, M. C., Cristia, A. (2016) ``MetaLab: Supporting power analysis and experimental planning in developmental research." Poster presentation at the XX International Conference on Infant Studies (ICIS). New Orleans, LA. (May)\\
+	\medskip
+	
+	Bergmann, C., Tsuji, S., Lewis, M., Braginsky, M., \textbf{Piccinini, P.}, Cristia, A., Frank, M. C. (2016). ``MetaLab: Power analysis and experimental planning in developmental research made easy." Poster presentation at the 6th Budapest CEU Conference on Cognitive Development (BCCCD). Budapest, Hungry. (January)\\
+	\medskip
+	
+	\textbf{Piccinini, P.}, Arvaniti, A. (2015). ``Voice onset time in Spanish-English spontaneous code-switching." Oral presentation at the 18th International Congress of Phonetic Sciences (ICPhS). Glasgow, Scotland. (August)\\
+	\medskip
+	
+	Armstrong, M., \textbf{Piccinini, P.}, Ritchart, A. (2015). ``The phonetics and distribution of non-question rises in two varieties of American English." Poster presentation at the 18th International Congress of Phonetic Sciences (ICPhS). Glasgow, Scotland. (August)\\
+	\medskip
+
+	Pajak, B., \textbf{Piccinini, P.}, Levy, R. (2014). ``Perceptual warping of phonetic space applies beyond known phonetic categories: evidence from the perceptual magnet effect." Poster presentation at the 168th Meeting of the Acoustical Society of America (ASA). Indianapolis, IN. (October)\\
+	\medskip
+
+	\textbf{Piccinini, P.}, Garellek, M. (2014). ``Prosodic cues to monolingual versus code-switching sentences in English and Spanish." Poster presentation at Speech Prosody 7. Dublin, Ireland. (May)\\
+	\medskip
+	
+	Davis, A., \textbf{Piccinini, P.}, Ribot, A. (2014). ``Catalan independence: Voluntary organizations and the construction of social capital." Oral presentation at the Symposium about Language and Society -- Austin (SALSA) XXII. Austin, TX. (April)\\
+	\medskip
+	
+	\textbf{Piccinini, P.}, Arvaniti, A. (2014). ``The role of language dominance and language mode in speech processing by bilinguals.'' Poster presentation at the Meeting of the British Association of Academic Phoneticians. Oxford, UK. (April)\\
+	\medskip
+
+	\textbf{Piccinini, P.}, Arvaniti, A. (2014). ``Accessing cross language categories in exposure to a third language.'' Oral presentation at the 88th Annual Meeting of the Linguistic Society of America. Minneapolis, MN. (January)\\
+	\medskip
+
+	\textbf{Piccinini, P.} (2013). ``Predicting code-switches from phonetic information: The discourse marker \emph{like} in Spanish-English code-switching.'' Poster presentation at the 166th Meeting of the Acoustical Society of America (ASA). San Francisco, CA. (December)\\
+	\medskip	
+
+	\textbf{Piccinini, P.}, Arvaniti, A. (2013). ``Accessing cross language categories in learning a third language.'' Oral presentation at the 38th Annual Boston University Conference on Language Development. Boston, MA. (November)\\
+	\medskip
+
+	\textbf{Piccinini, P.}, Arvaniti, A. (2013). ``Accessing cross language categories in learning a third language.'' Poster presentation at the 2013 Linguistic Institute Workshop on Variation in the Acquisition of Sound Systems. Ann Arbor, MI. (June)\\
+	\medskip
+	
+	\textbf{Piccinini, P.}, Kramer, E. (2013). ``Unsupervised machine learning for the accurate classification of the discourse marker \emph{like} in code-switching utterances.'' Poster presentation at the 21st Meeting of the International Congress on Acoustics (ICA) / the 165th Meeting of the Acoustical Society of America (ASA) /the 52nd Meeting of the Canadian Acoustical Association (CAA). Montreal, Canada. (June)\\
+	\medskip
+		
+	Grijalva, C., \textbf{Piccinini, P.}, Arvaniti, A. (2013). ``The vowel spaces of Southern Californian English and Mexican Spanish as produced by monolinguals and bilinguals.'' Poster presentation at the 21st Meeting of the International Congress on Acoustics (ICA) / the 165th Meeting of the Acoustical Society of America (ASA) /the 52nd Meeting of the Canadian Acoustical Association (CAA). Montreal, Canada. (June)\\
+	\medskip
+			
+	\textbf{Piccinini, P.} (2013). ``The predictive power of gradient phonetic cues in Spanish-English code-switching.'' Oral presentation at the 87th Annual Meeting of the Linguistic Society of America. Boston, MA. (January)\\
+	\medskip
+			
+	\textbf{Piccinini, P.} (2012). ``The gradient production of Spanish-English code-switching.'' Poster presentation at the 86th Annual Meeting of the Linguistic Society of America. Portland, OR. (January)\\
+	\medskip
+			
+	\textbf{Piccinini, P.} (2011). ``The production of Spanish-English code-switching.'' Poster presentation at the 162nd Meeting of the Acoustical Society of America (ASA). San Diego, CA. (November)\\
+	\medskip
+	
+	\textbf{Piccinini, P.}, Arvaniti, A. (2011). ``The production of Spanish-English code-switching.'' Oral presentation at the 1st Meeting of Variation in Language Processing (VALP). Chester, UK. (April)\\
+	\medskip	
+
+	\textbf{Piccinini, P.}, Bradlow, A. (2011). ``Semantic contextual cues and listener adaptation to foreign-accented English.'' Oral presentation at the 1st Meeting of Variation in Language Processing (VALP). Chester, UK. (April)\\
+	\medskip	
+
+	\textbf{Piccinini, P.} (2009). ``Semantic contextual cues and listener adaptation to foreign-accented English.'' Poster presentation at the Northwestern Undergraduate Research Symposium. Evanston, IL. (faculty advisor Ann Bradlow) (May)\\
+	\medskip	
+	
+	\textbf{Piccinini, P.}, Bradlow, A. (2009). ``Semantic contextual cues and listener adaptation to foreign-accented English.'' Poster presentation at the 2nd Special Workshop on Speech at the 157th Meeting of the Acoustical Society of America (ASA). Portland, OR. (May)\\
+	\medskip
+	
+	\textbf{Piccinini, P.} (2009). ``Semantic contextual cues and listener adaptation to foreign-accented English.'' Poster presentation at the Chicago Area Undergraduate Research Symposium (CAURS). Chicago, IL. (faculty advisor Ann Bradlow) (April)\\
+	
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fellowships and Research Grants
+\header{Fellowships and Research Grants}
+
+\begin{body}
+	\vspace{14pt}
+	
+		\textbf{PhD Fellowship}, \'Ecole Doctorale Cerveau, Cognition, Comportement (ED3C) \hfill {} \emph{2015}\\
+	\vspace{-4pt}
+	\begin{itemize}
+		\item[]\underline{Project Funded:} Modulation of cross-language activation in bilinguals\\
+		\item[]\underline{Amount Awarded:} Declined\\
+	\end{itemize}
+	\vspace{-4pt}
+	\medskip
+	
+		\textbf{Claude Y. Vandeloise Fellowship}, Department of Linguistics, UC San Diego \hfill {} \emph{2014 - 2015}\\
+	\vspace{-4pt}
+	\begin{itemize}
+		\item[]\underline{Project Funded:} Cross-language activation and the phonetics
+of code-switching\\
+		\item[]\underline{Amount Awarded:} \$3,909\\
+	\end{itemize}
+	\vspace{-4pt}
+	\medskip
+	
+	\textbf{Interdisciplinary Collaboratories Grant}, Office of the Chancellor, UC San Diego \hfill {} \emph{2013 - 2015}\\
+	\vspace{-4pt}
+	\begin{itemize}
+		\item[]\underline{Project Funded:} Catalan independence: Voluntary organizations and the construction of social change\\
+		\item[]\underline{Amount Awarded:} \$80,000 (jointly split with two other graduate student researchers)\\
+	\end{itemize}
+	\vspace{-4pt}
+	\medskip
+		
+	\textbf{NIH Pre-Doctoral Fellowship}, Center for Research in Language, UC San Diego \hfill {} \emph{2012 - 2013}\\
+	\vspace{-4pt}
+	\begin{itemize}
+		\item[]\underline{Project Funded:} Bilinguals' abilities to use L1 and L2 categories in learning a 3rd language\\
+		\item[]\underline{Amount Awarded:} \$31,832\\
+	\end{itemize}
+	\vspace{-4pt}
+	\medskip
+	
+	\textbf{Research Grant}, Department of Linguistics, UC San Diego \hfill {} \emph{2011}\\
+	\vspace{-4pt}
+	\begin{itemize}
+		\item[]\underline{Project Funded:} Catalan-Spanish bilinguals' self-assessments of language proficiency\\
+		\item[]\underline{Amount Awarded:} \$210\\
+	\end{itemize}
+	\vspace{-4pt}
+	\medskip
+	
+	\textbf{Weinberg Research Grant}, Weinberg College, Northwestern University \hfill {} \emph{2008}\\
+	\vspace{-4pt}
+	\begin{itemize}
+		\item[]\underline{Project Funded:} Bottom-up and top-down effects in foreign-accented speech recognition\\
+		\item[]\underline{Amount Awarded:} \$3,000\\
+	\end{itemize}
+	\vspace{-4pt}
+	\medskip
+	
+	\textbf{Undergraduate Research Grant}, Weinberg College, Northwestern University \hfill {} \emph{2007}\\
+	\vspace{-4pt}
+	\begin{itemize}
+		\item[]\underline{Project Funded:} A phonetic analysis of the Italian media's standard versus dialect uses\\
+		\item[]\underline{Amount Awarded:} \$3,000\\
+	\end{itemize}
+	\vspace{-4pt}
+	\medskip
+		
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Conference Travel Grants
+\header{Conference Travel Grants}
+
+\begin{body}
+	\vspace{14pt}
+	
+	\textbf{IPA Student Award}, International Phonetic Association \hfill {} \emph{2015}\\
+	\medskip
+	
+	\textbf{Bourses Doctorants}, GDR Neurosciences Cognitives du D\'eveloppement \hfill {} \emph{2015}\\
+	\medskip
+	
+	\textbf{Elizabeth Bates Graduate Research Fund}, Center for Research in Language, UC San Diego \hfill {} \emph{2014}\\
+	\medskip
+
+	\textbf{Conference Travel Grant}, Department of Linguistics, UC San Diego \hfill {} \emph{2014}\\
+	\medskip
+
+	\textbf{Conference Travel Grant}, Department of Linguistics, UC San Diego \hfill {} \emph{2014}\\
+	\medskip
+	
+	\textbf{Conference Travel Grant}, Department of Linguistics, UC San Diego \hfill {} \emph{2013}\\
+	\medskip
+
+	\textbf{Paula Menyuk Travel Award}, BU Conference on Language Development, Boston University \hfill {} \emph{2013}\\
+	\medskip
+
+	\textbf{Conference Travel Grant}, Department of Linguistics, UC San Diego \hfill {} \emph{2013}\\
+	\medskip
+	
+	\textbf{Dean of Social Sciences Travel Grant}, Office of the Social Sciences, UC San Diego \hfill {} \emph{2013}\\
+	\medskip
+		
+	\textbf{Conference Travel Grant}, Department of Linguistics, UC San Diego \hfill {} \emph{2012}\\
+	\medskip
+	
+	\textbf{Conference Travel Grant}, Department of Linguistics, UC San Diego \hfill {} \emph{2011}\\
+	\medskip
+	
+	\textbf{Weinberg Travel Grant}, Weinberg College, Northwestern University \hfill {} \emph{2009}\\
+	\medskip
+		
+\end{body}
+
+\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awards and Honors
+\header{Awards and Honors}
+
+\begin{body}
+	\vspace{14pt}
+
+	\textbf{Honorable Mention Student Poster Presentation in Speech Communication}, \hfill{} \emph{2013}\\
+	166th Meeting of the Acoustical Society of America
+	\medskip	
+
+	\textbf{Honorable Mention Student Poster Presentation in Speech Communication}, \hfill{} \emph{2013}\\
+	165th Meeting of the Acoustical Society of America
+	\medskip	
+
+	\textbf{TA Excellence Award}, Department of Linguistics, UC San Diego \hfill{} \emph{2012}\\
+	\medskip
+
+	\textbf{Best Poster Presentation in Social Science}, CAURS \hfill{} \emph{2009}\\
+	\medskip
+	
+	\textbf{Demoz Prize}, Department of Linguistics, Northwestern University \hfill{} \emph{2008}\\
+	\medskip
+	
+	\textbf{Distinguished Essay in English on an Italian Subject}, Northwestern University \hfill{} \emph{2007}\\
+	
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Teaching Experience
+\header{Teaching Experience}
+
+\begin{body}
+	\vspace{14pt}
+	
+	\textbf{R for Publication}, Teacher, ENS DEC Life and online \hfill \emph{Winter 2016}\\
+	\medskip
+
+	\textbf{LIGN 17, Making and Breaking Codes}, Teaching Assistant, UC San Diego \hfill \emph{Winter 2014}\\
+	\medskip	
+
+	\textbf{LIGN 110, Phonetics}, Teaching Assistant, UC San Diego \hfill \emph{Fall 2013}\\
+	\medskip
+	
+	\textbf{ANSC 113, Language, Style and Youth Identities}, Reader, UC San Diego \hfill \emph{Spring 2013}\\
+	\medskip
+	
+	\textbf{LIGN 143, Structure of Spanish}, Teaching Assistant, UC San Diego \hfill \emph{Spring 2012}\\
+	\medskip
+	
+	\textbf{LIGN/EDS 119, 1st and 2nd Language Acquisition}, Teaching Assistant, UC San Diego \hfill \emph{Winter 2012}\\
+	\medskip
+	
+	\textbf{LIGN 110, Phonetics}, Teaching Assistant, UC San Diego \hfill \emph{Fall 2011}\\
+	\medskip
+	
+	\textbf{LIGN 8, Languages and Cultures of America}, Teaching Assistant, UC San Diego \hfill \emph{Spring 2011}\\
+	\medskip
+	
+	\textbf{LIGN/EDS 119, 1st and 2nd Language Acquisition}, Teaching Assistant, UC San Diego \hfill \emph{Winter 2011}\\
+	\medskip
+	
+	\textbf{LIGN 101, Introduction to the Study of Language}, Teaching Assistant, UC San Diego \hfill \emph{Fall 2010}\\
+	
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Undergraduate Mentorship
+\header{Undergraduate Mentorship, University of California, San Diego}
+
+\begin{body}
+	\vspace{14pt}
+	
+	\textbf{Hilda Parra}, Research Assistant (faculty advisor: Marc Garellek) \hfill \emph{Fall 2015 - Fall 2015}\\
+	\medskip
+	
+	\textbf{Gerardo Soto-Becerra}, Research Assistant (faculty advisor: Marc Garellek) \hfill \emph{Fall 2015 - Fall 2015}\\
+	\medskip
+
+	\textbf{Richard Kroeger}, Research Assistant (faculty advisor: Marc Garellek) \hfill \emph{Spring 2014 - Summer 2014}\\
+	\medskip
+
+	\textbf{Linnea Lagerstrom}, Research Assistant (faculty advisor: Marc Garellek) \hfill \emph{Fall 2013 - Summer 2014}\\
+	\medskip
+
+	\textbf{Esperanza Gonzalez}, Research Assistant (faculty advisor: Marc Garellek) \hfill \emph{Spring 2013 - Summer 2014}\\
+	\medskip
+	
+	\textbf{Criccely Grijalva}, Research Assistant (faculty advisor: Amalia Arvaniti) \hfill \emph{Winter 2012 - Summer 2013}\\
+	\medskip
+
+	\textbf{Zully Herrarte}, Research Assistant (faculty advisor: Amalia Arvaniti) \hfill \emph{Fall 2012 - Spring 2013}\\
+	\medskip
+	
+	\textbf{Mireya Pinell-Cruz}, Research Assistant (faculty advisor: Amalia Arvaniti) \hfill \emph{Winter 2012 - Spring 2012}\\
+	\medskip
+	
+	\textbf{Rosa Quezada}, Research Assistant (faculty advisor: Amalia Arvaniti) \hfill \emph{Fall 2010}\\
+	
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Academic Service
+\header{Academic Service}
+
+\begin{body}
+	\vspace{14pt}
+	
+	\textbf{Member}, \#barbarplots Group and Kickstarter \hfill \emph{2016 - present} \\
+	\medskip
+	
+	\textbf{Special Session Co-organizer}, Rising Intonation in English and Beyond, Speech Prosody 8 \hfill \emph{2016} \\
+	\medskip
+	
+	\textbf{Reviewer}, Journal of the International Phonetic Association \hfill \emph{2014 - present} \\
+	\medskip
+
+	\textbf{Reviewer}, International Journal of Bilingualism Special Issue \hfill \emph{2013} \\
+	\medskip
+	
+	\textbf{Research/Travel Grant Committee}, UC San Diego \hfill \emph{2013 - 2014} \\
+	\medskip
+
+	\textbf{Faculty Job Search Committee}, UC San Diego \hfill \emph{2012 - 2013} \\
+	\medskip
+	
+	\textbf{Admissions Committee}, UC San Diego \hfill \emph{2011 - 2012} \\
+	\medskip
+	
+	\textbf{Admissions Committee}, UC San Diego \hfill \emph{2010 - 2011} \\
+
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Affiliations and Memberships
+\header{Affiliations and Memberships}
+
+\begin{body}
+	\vspace{14pt}
+	
+	\textbf{International Phonetic Association (IPA)} \hfill{} \emph{2015 - present}\\
+	\medskip
+	
+	\textbf{Acoustical Society of America (ASA)} \hfill{} \emph{2009 - present}\\
+	\medskip
+
+	\textbf{Linguistic Society of America (LSA)} \hfill{} \emph{2009 - present}\\
+	\medskip
+
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Relevant Skills
+\header{Relevant Skills}
+
+\begin{body}
+	\vspace{14pt}
+	
+	\textbf{Languages:} English (native), Spanish (conversational), Italian (conversational), French (beginner) Tun Savi Mixteco (field methods experience)\\
+	\medskip
+	
+	\textbf{Programing Languages:} R, Python, Praat, MATLAB, LaTeX, CSS, HTML\\
+	\medskip
+
+	\textbf{Computer Programs:} Praat, PsychoPy, Superlab, Level16, NoiseMixer, Wavescroller, NU Aligner, HINT, StatView\\
+	\medskip
+	
+	\textbf{Citizenships:} United States of America, Italy\\
+	\medskip
+
+\end{body}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
